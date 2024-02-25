@@ -1,5 +1,5 @@
 # Toilet Time Tracker
-Toilet Time Tracker is a simple Java application designed to help you track your bowel movements over time. It allows you to log the number of times you visit the toilet each day and provides insights into your bowel movement patterns on a daily, weekly, monthly, and yearly basis.
+Toilet Time Tracker is a simple Object Oriented Java application designed to help you track your bowel movements over time. It allows you to log the number of times you visit the toilet each day and provides insights into your bowel movement patterns on a daily, weekly, monthly, and yearly basis.
 
 ## Features
 -Daily Tracking: Log the number of times you visit the toilet each day.
