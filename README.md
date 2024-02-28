@@ -14,9 +14,10 @@ Toilet Time Tracker is a simple Object Oriented Java application designed to hel
 - A Java IDE such as IntelliJ IDEA or Eclipse.
 ### Installation
 1. Clone the repository to your local machine:
+
    ```git clone https://github.com/EliezerFioti/Toilet-Time.git```
-2. Open the project in your Java IDE.
-3. Build the project to compile the source code.
+3. Open the project in your Java IDE.
+4. Build the project to compile the source code.
 ### Usage
 1. Run the ToiletTimeTester class to launch the application.
 2. Follow the prompts to log your bowel movements each day.
