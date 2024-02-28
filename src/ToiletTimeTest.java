@@ -74,16 +74,17 @@ class ToiletTimeTest {
 	public void getNumOfPoopsPerWeek_NoPoopsPerWeekTest() {
 		var toilet = new ToiletTime();
 		
-		toilet.didYouPoop(false, LocalDate.of(2022, 1, 27));
-		toilet.didYouPoop(false, LocalDate.of(2022, 2, 28));
-		toilet.didYouPoop(false, LocalDate.of(2023, 3, 29));
-		toilet.didYouPoop(false, LocalDate.of(2023, 4, 30));
-		toilet.didYouPoop(false, LocalDate.of(2024, 1, 27));
-		toilet.didYouPoop(false, LocalDate.of(2024, 1, 27));
-		toilet.didYouPoop(false, LocalDate.of(2026, 1, 27));
-		toilet.didYouPoop(false, LocalDate.of(2026, 1, 27));
-		toilet.didYouPoop(false, LocalDate.of(2026, 1, 28));
-		toilet.didYouPoop(false, LocalDate.of(2026, 1, 29));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 7));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 7));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 8));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 9));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 10));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 10));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 10));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 11));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 12));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 13));
+		toilet.didYouPoop(false, LocalDate.of(2024, 1, 13));
 
 		assertEquals(0, toilet.getNumOfPoopsPerWeek(), "The expected number of times pooped today: 0");
 	}
