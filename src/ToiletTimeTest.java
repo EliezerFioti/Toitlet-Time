@@ -216,7 +216,7 @@ class ToiletTimeTest {
         assertFalse(ToiletTime.isDateInTheFuture(futureDate));
     }
 
-    @Test 
+	@Test 
     public void isDateInTheFuture_VeryDistantPastDate() {
         LocalDate distantPastDate = LocalDate.of(1000, 1, 1);
         assertFalse(ToiletTime.isDateInTheFuture(distantPastDate));
